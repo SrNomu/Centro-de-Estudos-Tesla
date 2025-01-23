@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centro de Estudos Tesla</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Header -->
     <!-- Header -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <!-- Adicione a classe "logo" ao SVG -->
-                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <svg class="logo me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="40" height="40">
                         <g fill="#FFFFFF">
                             <polygon points="36.703,11.011 9.638,26.636 9.638,38.757 36.703,23.131 63.767,38.757 63.767,26.636"></polygon>
                             <polygon points="63.298,89.092 36.233,73.467 36.233,61.348 63.298,76.973 90.362,61.348 90.362,73.467"></polygon>
@@ -33,61 +31,39 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">AREA DO ALUNO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">SOBRE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">MATRICULA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTATO</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Área do Aluno</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Matrícula</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    
-    
 
-     
     <!-- Slideshow -->
-    <!-- Tamanho das imagens 1500X500px -->
-    <!-- Slideshow -->
-<div id="mainCarousel" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width: 100%; width: 80%; height: auto;">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="img/banner_1.png" class="d-block w-100" alt="Imagem 1">
+    <div id="mainCarousel" class="carousel slide mx-auto my-4" data-bs-ride="carousel" style="max-width: 80%;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/banner_1.png" class="d-block w-100" alt="Banner do Centro de Estudos Tesla">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner_2.png" class="d-block w-100" alt="Banner 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner_3.png" class="d-block w-100" alt="Banner 3">
+            </div>
         </div>
-        <div class="carousel-item">
-            <img src="img/banner_2.png" class="d-block w-100" alt="Imagem 2">
-        </div>
-        <div class="carousel-item">
-            <img src="img/banner_3.png" class="d-block w-100" alt="Imagem 3">
-        </div>
-        <div class="carousel-item">
-            <img src="img/banner_4.png" class="d-block w-100" alt="Imagem 4">
-        </div>
-        <div class="carousel-item">
-            <img src="img/banner_5.png" class="d-block w-100" alt="Imagem 5">
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev" aria-label="Anterior">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next" aria-label="Próximo">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    </button>
-</div>
 
-
-    <!-- Área de Notícias -->
+    <!-- Notícias -->
     <section class="container my-5">
         <h2 class="mb-4">Notícias</h2>
         <div class="row">
@@ -95,8 +71,8 @@
                 <div class="card">
                     <img src="img/noticia_1.png" class="card-img-top" alt="Notícia 1">
                     <div class="card-body">
-                        <h5 class="card-title">Centro de Estudos Tesla Lança Programa de Intercâmbio Acadêmico 2024</h5>
-                        <a href="#" class="btn btn-primary">Continue lendo</a>
+                        <h5 class="card-title">Programa de Intercâmbio 2024</h5>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -104,8 +80,8 @@
                 <div class="card">
                     <img src="img/noticia_2.png" class="card-img-top" alt="Notícia 2">
                     <div class="card-body">
-                        <h5 class="card-title">Programa de Robótica para Crianças: Desenvolvendo o Futuro</h5>
-                        <a href="#" class="btn btn-primary">Continue lendo</a>
+                        <h5 class="card-title">Robótica para Crianças</h5>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -113,60 +89,27 @@
                 <div class="card">
                     <img src="img/noticia_3.png" class="card-img-top" alt="Notícia 3">
                     <div class="card-body">
-                        <h5 class="card-title">Formandos de Engenharia do Centro de Estudos Tesla Celebram Conquista
-                        </h5>
-                        <a href="#" class="btn btn-primary">Continue lendo</a>
+                        <h5 class="card-title">Formandos de Engenharia</h5>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Botões Animados -->
-    <section class="container my-5 text-center">
-        <h2 class="mb-4">Acesse Também</h2>
-        <div class="d-flex justify-content-between">
-            <a href="#" class="btn btn-primary animated-button mx-2">MATRICULA</a>
-            <a href="#" class="btn btn-primary animated-button mx-2">NIVEIS DE ENSINO</a>
-            <a href="#" class="btn btn-primary animated-button mx-2">AREA DO ALUNO</a>
-            <a href="#" class="btn btn-primary animated-button mx-2">EVENTOS</a>
-            <a href="#" class="btn btn-primary animated-button mx-2">NOTICIAS</a>
-        </div>
-    </section>
-
-    <!-- Segundo Slideshow -->
-    <div id="secondaryCarousel" class="carousel slide container my-5" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://via.placeholder.com/1500x500" class="d-block w-100" alt="Imagem 6">
-            </div>
-            <div class="carousel-item">
-                <img src="https://via.placeholder.com/1500x500" class="d-block w-100" alt="Imagem 7">
-            </div>
-            <div class="carousel-item">
-                <img src="https://via.placeholder.com/1500x500" class="d-block w-100" alt="Imagem 8">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#secondaryCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#secondaryCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
-    </div>
-
     <!-- Footer -->
-    <footer class="text-center">
+    <footer class="bg-dark text-light text-center py-4">
         <div class="container">
-            <p>Centro de Estudos Tesla © 2024</p>
+            <p>&copy; 2024 Centro de Estudos Tesla</p>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Contato</a></li>
-                <li class="list-inline-item"><a href="#">Sobre</a></li>
-                <li class="list-inline-item"><a href="#">Redes Sociais</a></li>
+                <li class="list-inline-item"><a href="#" class="text-light">Contato</a></li>
+                <li class="list-inline-item"><a href="#" class="text-light">Sobre</a></li>
+                <li class="list-inline-item"><a href="#" class="text-light">Redes Sociais</a></li>
             </ul>
         </div>
     </footer>
 
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
