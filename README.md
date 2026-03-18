@@ -39,7 +39,8 @@ This project was created as part of my learning journey in web development, focu
 
 ## 📷 Preview
 
-(Add screenshots here)
+<img width="1905" height="910" alt="image" src="https://github.com/user-attachments/assets/b87fcaa9-e02a-47bd-b531-c946e894fd8d" />
+
 
 ## 🔗 Access
 
