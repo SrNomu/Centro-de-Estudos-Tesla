@@ -1,50 +1,50 @@
-# Centro de Estudos Tesla
+# Tesla Study Center
 
-Projeto de um site institucional para uma escola moderna com foco em tecnologia, incluindo areas como programacao, robotica e engenharia.
+A web project for a modern educational institution focused on technology, including programming, robotics, and engineering.
 
-## 🚀 Sobre o projeto
+## 🚀 About the Project
 
-O "Centro de Estudos Tesla" e uma aplicacao web em desenvolvimento que simula o site de uma instituicao de ensino, com foco em design moderno, responsividade e organizacao de informacoes academicas.
+"Tesla Study Center" is a web application under development that simulates an institutional website for a school. The project focuses on modern design, responsiveness, and structured presentation of academic information.
 
-O projeto tambem preve a criacao de um dashboard para area do aluno, com funcionalidades interativas.
+It also includes plans for a student dashboard with interactive features.
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 - Bootstrap
 
-## 🎯 Funcionalidades atuais
+## 🎯 Current Features
 
-- Pagina inicial institucional
-- Secao de cursos
-- Layout responsivo utilizando Bootstrap
-- Estrutura de navegacao moderna
+- Institutional homepage
+- Courses and academic areas section
+- Responsive layout using Bootstrap
+- Modern navigation structure
 
-## 🔮 Funcionalidades futuras
+## 🔮 Future Features
 
-- Dashboard do aluno
-- Sistema de login
-- Area personalizada com informacoes academicas
-- Integracao com backend (em estudo)
+- Student dashboard
+- Authentication system (login)
+- Personalized student area
+- Backend integration (in progress)
 
-## 📌 Status do projeto
+## 📌 Project Status
 
-🚧 Em desenvolvimento
+🚧 In development
 
-## 💡 Objetivo
+## 💡 Purpose
 
-Projeto desenvolvido com foco em aprendizado de desenvolvimento web, aplicando conceitos de interface, responsividade e evolucao para aplicacoes mais completas.
+This project was created as part of my learning journey in web development, focusing on UI design, responsiveness, and building more complete web applications.
 
 ## 📷 Preview
 
-(Adicionar imagens do site)
+(Add screenshots here)
 
-## 🔗 Acesso
+## 🔗 Access
 
-(Adicionar link do repositorio ou deploy)
+(Add repository or live demo link here)
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
 Pedro Penrique
